@@ -6,14 +6,13 @@
     <title>Портфолио</title>
 
 
-
+    <link rel="stylesheet" href="reset.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
 
     
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="reset.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">    
     <link rel="stylesheet" href="styles.css" />
 
 
@@ -163,28 +162,64 @@
         </section>
         <section class="video">
             <div class="wrapper">
+                <h2 class="wrapper__container__videoTitle">
+                    Лучшие работы
+                </h2>
                 <div class="wrapper__container">
-                    <h2 class="wrapper__container__videoTitle">
-                        Видеогалерея
-                    </h2>
-                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                          <!-- <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8" aria-label="Slide 9"></button> -->
+
+                        
+                        </div>
                         <div class="carousel-inner">
                           <div class="carousel-item active">
-                            <video href="https://drive.google.com/file/d/17QEYPvk3clFtg2GgDl2zq4C7VZq-UQOv/view?usp=drive_link" class="d-block w-100" alt="...">
+                            <!-- <img src="img/best1.jpg" class="d-block w-100" alt="..."> -->
+                            <iframe width="100%" height="500px" src="https://www.youtube.com/embed/FDrC29Kq2Xw?si=YoQfTHbl5Tf91Yil" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                           </div>
                           <div class="carousel-item">
-                            <video src="https://drive.google.com/file/d/16C-b5-ipI72z8gRZfIyvx0_o89S-eNSo/view?usp=drive_link" class="d-block w-100" alt="...">
+                            <iframe width="100%" height="500px" src="https://www.youtube.com/embed/vtBH5MaAOBU?si=BlJ-cowq1GOsrGfx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <!-- <img src="img/best2.jpg" class="d-block w-100" alt="..."> -->
                           </div>
                           <div class="carousel-item">
-                            <video controls class="d-block w-100" poster="path_to_your_image.jpg">
-                                <source src="https://drive.google.com/uc?id=1FDyEf1NRTO6S8pfdjd_3kjIPBNM8U3hT" type="video/mp4">
+                            <iframe width="100%" height="500px" src="https://www.youtube.com/embed/cvgsN0GEnGM?si=nfBjvGJYvIUrYlI9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <!-- <img src="img/best3.jpg" class="d-block w-100" alt="..."> -->
                           </div>
+                          <div class="carousel-item ">
+                            <iframe width="100%" height="500px" src="https://www.youtube.com/embed/vdLJiwKmMEc?si=5-LJjIO7Vzs-01YL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <!-- <img src="img/best4.jpg" class="d-block w-100" alt="..."> -->
+                          </div>
+                          <div class="carousel-item">
+                            <iframe width="100%" height="500px" src="https://www.youtube.com/embed/AZJ5XnwJyXg?si=pil96OuWKZsKbnEA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <!-- <img src="img/best5.jpg" class="d-block w-100" alt="..."> -->
+                          </div>
+                          <div class="carousel-item">
+                            <iframe width="100%" height="500px" src="https://www.youtube.com/embed/aqNgGEzupNM?si=z4LmOR40zbLsLDoD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <!-- <img src="img/best6.jpg" class="d-block w-100" alt="..."> -->
+                          </div>
+                          <!-- <div class="carousel-item ">
+                            <img src="img/best7.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="img/best8.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="img/best9.jpg" class="d-block w-100" alt="...">
+                          </div> -->
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
                           <span class="carousel-control-next-icon" aria-hidden="true"></span>
                           <span class="visually-hidden">Next</span>
                         </button>
@@ -234,5 +269,6 @@
             </div>
         </section>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
