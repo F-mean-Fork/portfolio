@@ -268,16 +268,30 @@ header{
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.08);
     border-radius: 20px;
     scroll-snap-align: center;
+    align-items: center;
 }
  
 .carousel-item__name{
-    font-family: "Lato", serif;
-    color: rgba(45, 40, 40, 0.98);
-    margin-bottom: 60px;
+    font-size: 25px;
+    color: rgba(45, 40, 40, 0.88);
+    margin-bottom: 20px;
     font-weight: 700;
 }
 
+.carousel-item__stars{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 5px;
+    margin-bottom: 40px;
+}
+
+.carousel-item__stars__item{
+    width: 15px;
+}
+
 .carousel-item__text{
+    text-align: justify;
+    width: 80%;
     font-family: "Lato", serif;
     color: rgba(45, 40, 40, 0.78);
 }
