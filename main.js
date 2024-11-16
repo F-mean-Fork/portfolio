@@ -3,9 +3,9 @@ const dots = document.querySelectorAll('.wrapper__feedback__content__dots__dot')
 
 carouselInner.addEventListener('scroll', function () {
     const totalWidth = carouselInner.scrollWidth - carouselInner.clientWidth; 
-    const itemWidth = totalWidth / 6; 
+    const itemWidth = totalWidth / 5; 
     let activeIndex = Math.floor(carouselInner.scrollLeft / itemWidth);
-    activeIndex = Math.max(0, Math.min(activeIndex, 5));
+    activeIndex = Math.max(0, Math.min(activeIndex, 4));
 
     dots.forEach((dot, index) => {
         if (index === activeIndex) {
