@@ -83,20 +83,75 @@ header{
     flex-wrap: wrap;
     align-items: center;
     justify-content: flex-start;
+
+    font-family: "Lato", serif;
 }
 
-.mainInfo__text__desc{
-    font-family: "Lato", serif;
-    font-size: 25px;
-    font-weight: 600;
+.mainInfo__text__mainDesk{
+    font-size: 40px;
     font-style: normal;
 }
 
-.mainInfo__text__portfolio{
-    font-size: 40px;
+.mainInfo__text__desc{
+    margin-top: 50px;
+    font-size: 20px;
     text-transform: uppercase;
 }
+
+.mainInfo__text__desc__text:first-child{
+    margin-bottom: 20px;
+}
+
+.mainInfo__text__desc__text__link{
+    text-decoration: underline;
+    color: inherit;
+}
+
+.mainInfo__text__desc__text__link:active,
+.mainInfo__text__desc__text__link:hover,
+.mainInfo__text__desc__text__link:focus-visible{
+    color: #be5747;
+    cursor: pointer;
+}
+
 /* Header ends */
+
+/* Key Info starts*/
+.keyInfo1, .keyInfo2{
+    height: 100vh;
+    width: 100%;
+    padding: 0 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.keyInfo1{
+    background-color: rgba(20, 18, 18, 0.98);
+    color: rgba(255, 228, 225, 1);
+}
+
+.keyInfo2{
+    background-color:  rgba(255, 228, 225, 1);
+    
+}
+
+.keyInfo1__wrapp{
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: space-around;   
+}
+
+.keyInfo1__text{
+    width: 750px;
+    font-size: 30px;
+    line-height: 2.5rem;
+    text-align: justify;
+    padding-bottom: 50px;
+}
+
+/* Key Info ends */
 
 /* Foto gallery starts*/
 .foto,
@@ -357,19 +412,35 @@ header{
 
 .contacts__info__decs{
     height: 600px;
-    width: 600px;
+    width: 800px;
     padding: 50px;
     display: flex;
     border: 2px solid rgba(45, 40, 40, 0.98);
     border-radius: 0 40px 40px 0;
     flex-direction: column;
+    font-family: "Lato", serif;
+    text-align: center;
 }
 
-.contacts__info__decs p{
-    font-family: "Lato", serif;
-    margin-top: 20px;
+.contacts__info__decs__writeMe{
     font-size: 25px;
-    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contacts__info__decs__callMe{
+    font-size: 30px;
+}
+
+.contacts__info__decs__writeMe a{
+    text-decoration: underline;
+    color: inherit;
+}
+
+.contacts__info__decs__writeMe a:active,
+.contacts__info__decs__writeMe a:hover,
+.contacts__info__decs__writeMe a:focus-visible{
+    color: #be5747;
+    cursor: pointer;
 }
 
 .telephone{
