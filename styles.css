@@ -140,15 +140,25 @@ header{
     display: flex;
     width: 100%;
     flex-wrap: nowrap;
-    justify-content: space-around;   
+    justify-content: space-around;  
 }
 
 .keyInfo1__text{
     width: 750px;
+    height: 450px;
     font-size: 30px;
     line-height: 2.5rem;
     text-align: justify;
     padding-bottom: 50px;
+}
+
+.keyInfo1__title{
+    padding-bottom: 0;
+}
+
+.keyInfo1__video{
+    height: 450px;
+    border-radius: 20px;
 }
 
 /* Key Info ends */
