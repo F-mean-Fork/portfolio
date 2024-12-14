@@ -161,6 +161,12 @@ header{
     border-radius: 20px;
 }
 
+.keyInfo1__pic__thumb{
+    height: 650px;
+    border-radius: 20px;
+    object-fit: contain;
+}
+
 /* Key Info ends */
 
 /* Foto gallery starts*/
